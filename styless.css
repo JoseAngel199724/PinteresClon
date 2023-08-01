@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(33, 25, 34);
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+body{
+background-color: rgb(255, 255, 255);
+}
+.header{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-pinteres a{
+    display: flex;
+ 
+}
+.buscar{
+ 
+    padding: 10px 10px;
+    width:100% ;
+    margin: 0 0 0 10px;
+    background-color:rgb(224, 224, 224);
+    border-radius: 20px;
+   
+} 
+.seccion-2-1 .di-boton{
+    display: none;
+}
+
+.buscador{
+
+height: 30px;
+background-color: rgb(224, 224, 224);
+width:95%;
+border: none;
+}
+
+.botones-opciones{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 16px;
+}
+.di-boton{
+ margin: 0 0 0 15px;
+ border-radius: 15px;
+ max-width: max-content;
+ display: flex;
+ 
+}
+.di-boton-desplegar{ 
+   padding: 10px;
+    margin: 0 0 0 15px;
+
+   }
+.header .seccion-3{
+    display: flex;
+    flex-direction: row;
+}
+.header .seccion-2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.header .seccion-1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.desplegable-1{
+  top:23px;
+  left: 210px;
+    position: absolute;
+
+    
+}
+.desplegable-1-2{
+    top:23px;
+    left: 60px;
+      position: absolute;
+      
+  }
+
+
+ .desplegable{
+top:40px;
+right: 4px;
+  position: absolute;  
+  padding-top: 15px;  
+}
+
+
+
+.flecha-boton{
+    background-color:transparent ;
+    border: none;
+    border-radius: 10px;
+
+    }
+    .icon-flecha{ 
+    border: none;
+    border-radius: 10px;  
+    }
+    .crear-opciones{
+    display: none;
+    border-radius: 16px;
+    background-color: #ffffff;
+      max-width: max-content;
+      list-style: none!important;
+     margin: 35px 0px 0px 0px;
+     padding: 5px;
+     box-shadow: 0px 0px 5px #e9e5e5 ;
+    
+    }
+    .crear-opciones a{
+        text-decoration: none;
+        color: black;
+        padding: 13px;
+        display: flex;
+        margin: 10px ;
+       justify-content: flex-start;
+       border-radius: 15px;
+ }
+ .links a{
+    text-decoration: none;
+    color: black;
+    padding: 13px;
+    display: flex;
+   justify-content:flex-start;
+   border-radius: 15px;
+}
+.links h5{
+  
+    margin: 0px 0px 0px 12px;
+   
+}
+.links{
+ display: none ;
+ border-radius: 15px;
+    background-color: #ffffff;
+width: max-content;
+  list-style: none!important;
+  padding: 5px;
+  box-shadow: 0px 0px 5px #e9e5e5 ;
+}
+
+.links a:hover{
+    background-color: #b92424;
+}
+.crear-opciones a:hover{
+    background-color: #b92424;
+}
+.seccion-1 .di-boton:hover,a:hover{
+background-color: black;
+color: #ffffff;
+}
+
+.seccion-img  a:hover{
+    background-color: #e6e6e6;
+    border-radius: 50%;
+   
+}
+
+
+.di-boton-desplegar:hover .links{
+   
+   display:block;
+
+
+}
+
+.seccion-2:hover .crear-opciones{
+    display: block;
+}
+.seccion-2-1:hover .crear-opciones{
+    display: block;
+}
+@media screen and (max-width:850px) {
+    .seccion-1 .di-boton{
+        display:none;
+    }
+    .seccion-2 .di-boton{
+        display: none;
+    }
+    .seccion-2-1 .di-boton{
+      display: inline-flex;  
+    }
+}
+
+.row{
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    gap: 0.5rem;
+    padding: 2rem;
+  flex-wrap: wrap;
+}
+img{
+  width: 100%;
+
+}
+.column{
+    height: 100%;
+    flex-basis: 600px;
+    flex: 25%;
+}
+.column img{
+    margin-top:5px;
+border-radius: 15px;
+
+}
+
+@media (max-width: 800px){
+    .column{
+      flex: 50%;
+        }
+    }
+
+    @media (max-width: 600px){
+        .column{
+            flex: 100%;
+        }
+    }
